@@ -20,7 +20,14 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
 		</dependency>
-		            
+		
+		<!-- HTTP Client -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.2.5</version>
+		</dependency>
+				            
 		<!-- DB Connect -->
 		<dependency>
 			<groupId>org.mybatis</groupId>
