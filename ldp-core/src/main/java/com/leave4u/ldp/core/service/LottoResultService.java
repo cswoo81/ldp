@@ -5,5 +5,8 @@ public interface LottoResultService {
 	public void getLottoResult(); 
 	public void setLottoResult(); 
 	
+	public void putLottoDrawResultListFromLottoSite(); 
+	public void putLottoDrawResultItemFromLottoSite(String no); 
+	
 
 }

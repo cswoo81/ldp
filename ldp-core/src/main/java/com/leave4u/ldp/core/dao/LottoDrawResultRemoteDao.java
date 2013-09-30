@@ -4,7 +4,7 @@ import com.leave4u.ldp.core.model.LottoDrawResult;
 
 public interface LottoDrawResultRemoteDao {
 	
-	public LottoDrawResult getLottoDrawResultItem(String no);
+	public LottoDrawResult getLottoDrawResultItem(Integer no);
 	
 	// 최신 로또 번호는 잘 못 들어올 수 있으므로 1주일 간 주기적으로 업데이트 쳐 준다. 
 	// 스케쥴러가 돌면서 하루에 한번 씩 로또 당첨 번호를 가져온다. 
